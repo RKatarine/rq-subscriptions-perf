@@ -1,5 +1,5 @@
 import * as React from "react";
-import { MyRQComponent } from "./MyRQComponent";
+import { MyRQComponent } from "./MyRQComponent.tsx";
 
 export const MyApp = () => {
     const [render, toggle] = React.useReducer((x) => !x, false);

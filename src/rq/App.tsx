@@ -6,8 +6,6 @@ import {ReactQueryDevtools} from '@tanstack/react-query-devtools'
 
 import {MyApp} from "./MyApp.tsx";
 
-import './App.css'
-
 const queryClient = new QueryClient({
     defaultOptions: {
         queries: {
